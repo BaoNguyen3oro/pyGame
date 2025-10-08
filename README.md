@@ -12,6 +12,35 @@ This repository contains classic games implemented in Python using Pygame.
 
 ## Games
 
+### Snake
+
+A classic Snake game where you control a snake to eat food and grow longer.
+
+#### How to Run
+```
+python snake.py
+```
+
+#### Game Controls
+- **Arrow Keys**: Move the snake (Up, Down, Left, Right)
+- **Space**: Restart game (when game over)
+- **ESC**: Quit game
+
+#### Game Rules
+- Control the snake to eat red food squares
+- The snake grows longer each time it eats food
+- Avoid hitting the walls or the snake's own body
+- Game speed increases as your score gets higher
+- Game ends when the snake collides with walls or itself
+
+#### Features
+- Classic snake movement mechanics
+- Collision detection for walls and self-collision
+- Score tracking (+10 points per food)
+- Progressive difficulty (speed increases with score)
+- Visual grid for better gameplay
+- Game over screen with restart functionality
+
 ### Tetris
 
 A classic Tetris game where you arrange falling blocks to complete lines.
